@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 15 12:16:28 CST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2965 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.unosquare.FirstTest.NasaTest_WrongApiKey()'><b>NasaTest_WrongApiKey</b><br>Test class: com.unosquare.FirstTest<br/>
+<a href="#Output-768669591" onClick='toggleBox("Output-768669591", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-768669591" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-768669591">
+API Nasa, mars pictures Sucess 403 validation with invalid API key<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.FirstTest@69997e9d</td></tr>
+<tr>
+<td title='com.unosquare.FirstTest.TestSecondTest()'><b>TestSecondTest</b><br>Test class: com.unosquare.FirstTest<br/>
+<a href="#Output-1364058917" onClick='toggleBox("Output-1364058917", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1364058917" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1364058917">
+Sucess 404 validation<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.FirstTest@69997e9d</td></tr>
+<tr>
+<td title='com.unosquare.FirstTest.NasaTest()'><b>NasaTest</b><br>Test class: com.unosquare.FirstTest<br/>
+<a href="#Output-778330045" onClick='toggleBox("Output-778330045", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-778330045" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-778330045">
+API Nasa, mars pictures Sucess 200 validation, first image url http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FLB_486265257EDR_F0481570FHAZ00323M_.JPG<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.unosquare.FirstTest@69997e9d</td></tr>
+<tr>
+<td title='com.unosquare.FirstTest.f()'><b>f</b><br>Test class: com.unosquare.FirstTest<br/>
+<a href="#Output-789315095" onClick='toggleBox("Output-789315095", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-789315095" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-789315095">
+Sucess 200 validation<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.FirstTest@69997e9d</td></tr>
+</table><p>
+</body>
+</html>
